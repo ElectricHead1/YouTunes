@@ -1,16 +1,11 @@
-/*
-    Title: db_init.sql
-    Author: Professor Krasso
-    Date: 25 June 2021
-    Description: youtunes database initialization script.
-*/
+
 
 -- drop test user if exists 
 DROP USER IF EXISTS 'youtunes_user'@'localhost';
 
 
 -- create pysports_user and grant them all privileges to the pysports database 
-CREATE USER 'youtunes_user'@'localhost' IDENTIFIED WITH mysql_native_password BY 'MySQL5IsGreat!';
+CREATE USER 'youtunes_user'@'localhost' IDENTIFIED WITH mysql_native_password BY 'Grace@9812T!';
 
 
 -- grant all privileges to the pysports database to user pysports_user on localhost 
